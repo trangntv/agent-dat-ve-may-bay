@@ -115,14 +115,14 @@ Các tool trả dictionary để graph cập nhật state và ghi `tool_trace`. 
 | Tình huống | Mẫu tác tử | Trạng thái mong đợi | Trạng thái thực tế | Chuyến chọn | Tổng vé (VND) | Lượt mô hình giả | Lượt gọi công cụ | Lần điều chỉnh kế hoạch |
 |---|---|---:|---:|---|---:|---:|---:|---:|
 | Đặt vé thành công | ReAct | đã hoàn tất | đã hoàn tất | VJ201 | 10000000 | 6 | 5 | 0 |
-| Đặt vé thành công | Lập kế hoạch rồi thực thi | đã hoàn tất | đã hoàn tất | VJ201 | 10000000 | 1 | 6 | 0 |
-| Đặt vé thành công | Lai: lập kế hoạch và thích ứng | đã hoàn tất | đã hoàn tất | VJ201 | 10000000 | 7 | 5 | 1 |
+| Đặt vé thành công | Plan-then-Execute | đã hoàn tất | đã hoàn tất | VJ201 | 10000000 | 1 | 6 | 0 |
+| Đặt vé thành công | Hybrid | đã hoàn tất | đã hoàn tất | VJ201 | 10000000 | 7 | 5 | 1 |
 | Không có chuyến trong ngân sách | ReAct | cần người dùng xử lý | cần người dùng xử lý | — | — | 2 | 1 | 0 |
-| Không có chuyến trong ngân sách | Lập kế hoạch rồi thực thi | cần người dùng xử lý | cần người dùng xử lý | — | — | 1 | 1 | 0 |
-| Không có chuyến trong ngân sách | Lai: lập kế hoạch và thích ứng | cần người dùng xử lý | cần người dùng xử lý | — | — | 3 | 1 | 0 |
+| Không có chuyến trong ngân sách | Plan-then-Execute | cần người dùng xử lý | cần người dùng xử lý | — | — | 1 | 1 | 0 |
+| Không có chuyến trong ngân sách | Hybrid | cần người dùng xử lý | cần người dùng xử lý | — | — | 3 | 1 | 0 |
 | Thiếu số lượng hành khách | ReAct | cần người dùng xử lý | cần người dùng xử lý | — | — | 0 | 0 | 0 |
-| Thiếu số lượng hành khách | Lập kế hoạch rồi thực thi | cần người dùng xử lý | cần người dùng xử lý | — | — | 0 | 0 | 0 |
-| Thiếu số lượng hành khách | Lai: lập kế hoạch và thích ứng | cần người dùng xử lý | cần người dùng xử lý | — | — | 0 | 0 | 0 |
+| Thiếu số lượng hành khách | Plan-then-Execute | cần người dùng xử lý | cần người dùng xử lý | — | — | 0 | 0 | 0 |
+| Thiếu số lượng hành khách | Hybrid | cần người dùng xử lý | cần người dùng xử lý | — | — | 0 | 0 | 0 |
 
 ## Quan sát
 
